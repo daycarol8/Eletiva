@@ -1,6 +1,6 @@
 
  .navbar {
-    margin-bottom: 0;
+
     border-radius: 0;
   }
   
@@ -25,3 +25,9 @@
     }
     .row.content {height:auto;} 
   }
+  #teste{
+    text-align: center;
+  }
+ #coluna{
+   border-right: #555 dotted 1px;
+ } 
