@@ -11,8 +11,36 @@
     min-height:100px;
 }
 
+img{
+  margin: 10px;
+}
+
+.imgcenter{
+  float: left;
+}
+
 @media (max-width: 600px) {
   .carousel-caption {
     display: none;
+
   }
+  
+  .imgcenter{
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  img{
+    width: 100%;
+  }
+}
+
+
+h1{
+  margin-left: 10px;
+}
+
+p{
+  margin-left: 10px;
+  font-size: 20px;
 }
